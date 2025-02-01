@@ -2,29 +2,42 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class ResourcesManager
+public class ResourcesManager : MonoBehaviour
 {
-    private static Dictionary<ResourceType, int> _resoursesAmount;
+    public static ResourcesManager Instance { get; private set; }
 
-    public static void Initialize() {
-        _resoursesAmount = new Dictionary<ResourceType, int>();
+    private Dictionary<ResourceType, int> _resourcesAmount;
+
+    private void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }
+    }   
+
+    private void Start() {
+        _resourcesAmount = new Dictionary<ResourceType, int>();
 
         foreach (ResourceType type in Enum.GetValues(typeof(ResourceType)))
-            _resoursesAmount[type] = 0;
+            _resourcesAmount[type] = 0;
     }
 
-    public static void AddResourses(ResourceType resourceType, int add)
+    public void AddResourses(ResourceType resourceType, int add)
     {
-        _resoursesAmount[resourceType] += add;
+        _resourcesAmount[resourceType] += add;
     }
 
-    public static void DecreaseResource(ResourceType resourceType, int decrease)
+    public void DecreaseResource(ResourceType resourceType, int decrease)
     {
-        _resoursesAmount[resourceType] = Mathf.Max(_resoursesAmount[resourceType] - decrease, 0);
+        _resourcesAmount[resourceType] = Mathf.Max(_resourcesAmount[resourceType] - decrease, 0);
     }
 
-    public static int GetResourceAmount(ResourceType resourceType)
+    public int GetResourceAmount(ResourceType resourceType)
     {
-        return _resoursesAmount[resourceType];
+        return _resourcesAmount.TryGetValue(resourceType, out int amount) ? amount : 0;
     }
 }

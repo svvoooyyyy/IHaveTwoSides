@@ -8,6 +8,6 @@ public class ResourcesUI : MonoBehaviour
     
     private void Update()
     {
-        _resourseCounterText.text = ResourcesManager.GetResourceAmount(_resourceType).ToString();
+        _resourseCounterText.text = ResourcesManager.Instance.GetResourceAmount(_resourceType).ToString();
     }
 }
