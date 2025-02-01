@@ -27,15 +27,24 @@
                     "name": "Fire",
                     "type": "Button",
                     "id": "d683ef73-a858-4a97-a588-04f34afc0f35",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Sprint",
+                    "name": "PickUp",
                     "type": "Button",
-                    "id": "d97e73ce-78d4-498f-87d2-acd2db9777e1",
+                    "id": "bd352bf9-2707-4145-894b-3d406fb14115",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Drop",
+                    "type": "Button",
+                    "id": "b6d1a18e-bc93-45a4-a093-2c5af7a27518",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -265,12 +274,67 @@
                 },
                 {
                     "name": "",
-                    "id": "25dd2adc-5aa1-4ab2-af32-bab774b1de5d",
-                    "path": "<Keyboard>/shift",
+                    "id": "2c434224-2b7f-4d61-ab4f-eb24e9e14c46",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "PickUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0db0edee-d580-400f-8eec-e9a0ff9d54fa",
+                    "path": "<DualShockGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "PickUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9fbd879-0b95-4aa6-89b6-6ef9ee38e411",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Sprint",
+                    "action": "PickUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3914d0ed-f084-40a6-9976-cded359c68ee",
+                    "path": "<XInputController>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Drop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7d5c5342-39b4-456b-9e41-4166b7db5377",
+                    "path": "<DualShockGamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Drop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "995e6fd7-6abf-4f5a-8dc2-29defdedb2c0",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Drop",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
