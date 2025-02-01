@@ -1,10 +1,14 @@
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.InputSystem;
+=======
+>>>>>>> svvoooyyyy
 
 public class ActiveSlot : MonoBehaviour
 {
     [SerializeField] private List<GameObject> _itemsPool;
+<<<<<<< HEAD
     [SerializeField] private float _pickUpRadius;
     [SerializeField] private LayerMask _itemMask;
     private ItemType _activeItem = ItemType.None;
@@ -23,6 +27,11 @@ public class ActiveSlot : MonoBehaviour
     }
 
     private void PickUpItem(ItemType itemType)
+=======
+    private ItemType _activeItem = ItemType.None;
+    
+    public void PickUpItem(ItemType itemType)
+>>>>>>> svvoooyyyy
     {
         if (_activeItem != ItemType.None)
             return;
@@ -31,12 +40,17 @@ public class ActiveSlot : MonoBehaviour
         _itemsPool[(int)_activeItem].SetActive(true);
     }
 
+<<<<<<< HEAD
     private void DropItem()
+=======
+    public void DropItem(ItemType itemType)
+>>>>>>> svvoooyyyy
     {
         if (_activeItem == ItemType.None)
             return;
         
         _itemsPool[(int)_activeItem].SetActive(false);
+<<<<<<< HEAD
         _activeItem = ItemType.None;
         _itemsPool[(int)_activeItem].SetActive(true);
     }
@@ -68,4 +82,9 @@ public class ActiveSlot : MonoBehaviour
             }
         }
     }
+=======
+        _activeItem = itemType;
+        _itemsPool[(int)_activeItem].SetActive(true);
+    }
+>>>>>>> svvoooyyyy
 }

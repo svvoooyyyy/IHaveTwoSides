@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 D:\GitHub\IHaveTwoSides\I Have Two Sides
+=======
+C:\Users\glow_\OneDrive\Documents\GitHub\IHaveTwoSides\I Have Two Sides
+>>>>>>> svvoooyyyy

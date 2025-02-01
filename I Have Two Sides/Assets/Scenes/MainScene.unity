@@ -322,6 +322,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &44900932
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,6 +420,8 @@ MonoBehaviour:
   _resourceType: 1
   _resourceAmount: 1
   _obtainItemType: 1
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &45342264
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,6 +707,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.25, y: 1}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!1 &129667336
 GameObject:
   m_ObjectHideFlags: 0
@@ -788,6 +792,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &133854768
 GameObject:
   m_ObjectHideFlags: 0
@@ -866,6 +872,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 23, y: 1}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!1 &154615641
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,6 +909,8 @@ Transform:
   - {fileID: 708725349}
   m_Father: {fileID: 669927838}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &156125190
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,13 +1130,21 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184012086}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> svvoooyyyy
   m_LocalPosition: {x: 0.75, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 159444027}
+<<<<<<< HEAD
   m_Father: {fileID: 154615642}
+=======
+  m_Father: {fileID: 669927838}
+>>>>>>> svvoooyyyy
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &191905102
 GameObject:
@@ -2066,6 +2083,7 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1683004668}
+<<<<<<< HEAD
 --- !u!1 &346036046
 GameObject:
   m_ObjectHideFlags: 0
@@ -2151,6 +2169,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &367895430
 GameObject:
   m_ObjectHideFlags: 0
@@ -3644,6 +3664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30132fb23fcb254489c50eabfcb98313, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!1 &628705979
 GameObject:
   m_ObjectHideFlags: 0
@@ -3728,6 +3749,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &658958855
 GameObject:
   m_ObjectHideFlags: 0
@@ -3819,7 +3842,10 @@ GameObject:
   - component: {fileID: 669927836}
   - component: {fileID: 669927839}
   - component: {fileID: 669927835}
+<<<<<<< HEAD
   - component: {fileID: 669927841}
+=======
+>>>>>>> svvoooyyyy
   - component: {fileID: 669927840}
   m_Layer: 0
   m_Name: Player
@@ -3927,8 +3953,16 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 859683386}
+<<<<<<< HEAD
   - {fileID: 154615642}
   - {fileID: 894530933}
+=======
+  - {fileID: 1080342141}
+  - {fileID: 1959680943}
+  - {fileID: 184012087}
+  - {fileID: 722843256}
+  - {fileID: 708725349}
+>>>>>>> svvoooyyyy
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &669927839
@@ -3977,6 +4011,7 @@ MonoBehaviour:
     m_ActionId: e0b16186-711c-4b3f-a3e3-36e8ab8fd18c
     m_ActionName: Player/Look[/DualSenseGamepadHID/rightStick,/Mouse/delta]
   - m_PersistentCalls:
+<<<<<<< HEAD
       m_Calls:
       - m_Target: {fileID: 669927841}
         m_TargetAssemblyTypeName: PlayerAttack, Assembly-CSharp
@@ -3990,6 +4025,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+=======
+      m_Calls: []
+>>>>>>> svvoooyyyy
     m_ActionId: d683ef73-a858-4a97-a588-04f34afc0f35
     m_ActionName: Player/Fire[/DualSenseGamepadHID/rightTrigger,/Mouse/leftButton]
   - m_PersistentCalls:
@@ -4033,6 +4071,7 @@ MonoBehaviour:
     m_ActionId: 3db6cedc-b389-4f15-9c11-84a2f2f27fd9
     m_ActionName: UI/TrackedDeviceOrientation
   - m_PersistentCalls:
+<<<<<<< HEAD
       m_Calls:
       - m_Target: {fileID: 669927840}
         m_TargetAssemblyTypeName: ActiveSlot, Assembly-CSharp
@@ -4062,6 +4101,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+=======
+      m_Calls: []
+    m_ActionId: bd352bf9-2707-4145-894b-3d406fb14115
+    m_ActionName: Player/PickUp[/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls: []
+>>>>>>> svvoooyyyy
     m_ActionId: b6d1a18e-bc93-45a4-a093-2c5af7a27518
     m_ActionName: Player/Drop[/Keyboard/q]
   m_NeverAutoSwitchControlSchemes: 1
@@ -4087,6 +4133,7 @@ MonoBehaviour:
   - {fileID: 184012086}
   - {fileID: 722843255}
   - {fileID: 708725348}
+<<<<<<< HEAD
   _pickUpRadius: 1.5
   _itemMask:
     serializedVersion: 2
@@ -4276,6 +4323,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &708725348
 GameObject:
   m_ObjectHideFlags: 0
@@ -4300,7 +4349,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708725348}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> svvoooyyyy
   m_LocalPosition: {x: 0.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4308,7 +4361,11 @@ Transform:
   - {fileID: 1112195991}
   - {fileID: 471331814}
   - {fileID: 1347208966}
+<<<<<<< HEAD
   m_Father: {fileID: 154615642}
+=======
+  m_Father: {fileID: 669927838}
+>>>>>>> svvoooyyyy
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &709684679
 GameObject:
@@ -4437,6 +4494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!1 &720529355
 GameObject:
   m_ObjectHideFlags: 0
@@ -4531,6 +4589,8 @@ MonoBehaviour:
   _resourceType: 0
   _resourceAmount: 1
   _obtainItemType: 1
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &722843255
 GameObject:
   m_ObjectHideFlags: 0
@@ -4555,12 +4615,17 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722843255}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> svvoooyyyy
   m_LocalPosition: {x: 0.75, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1062700153}
+<<<<<<< HEAD
   m_Father: {fileID: 154615642}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &754741375
@@ -4647,6 +4712,10 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+  m_Father: {fileID: 669927838}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> svvoooyyyy
 --- !u!1 &771046227
 GameObject:
   m_ObjectHideFlags: 0
@@ -4722,6 +4791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!1 &787717717
 GameObject:
   m_ObjectHideFlags: 0
@@ -4807,6 +4877,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &849165669
 GameObject:
   m_ObjectHideFlags: 0
@@ -5184,6 +5256,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 11}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!1 &880657896
 GameObject:
   m_ObjectHideFlags: 0
@@ -5268,6 +5341,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &885983156
 GameObject:
   m_ObjectHideFlags: 0
@@ -5303,6 +5378,7 @@ Transform:
   - {fileID: 1539758972}
   m_Father: {fileID: 1955971540}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &894530932
 GameObject:
   m_ObjectHideFlags: 0
@@ -5334,6 +5410,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 669927838}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &914545001
 GameObject:
   m_ObjectHideFlags: 0
@@ -5679,6 +5757,7 @@ Transform:
   - {fileID: 14795065}
   m_Father: {fileID: 1345158998}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &930465710
 GameObject:
   m_ObjectHideFlags: 0
@@ -5763,6 +5842,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &931465267
 GameObject:
   m_ObjectHideFlags: 0
@@ -5842,6 +5923,7 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 709684680}
+<<<<<<< HEAD
 --- !u!1 &981333666
 GameObject:
   m_ObjectHideFlags: 0
@@ -6009,6 +6091,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &1034820876
 GameObject:
   m_ObjectHideFlags: 0
@@ -6393,11 +6477,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080342140}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> svvoooyyyy
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< HEAD
   m_Father: {fileID: 154615642}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1104229486
@@ -6484,6 +6573,10 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+  m_Father: {fileID: 669927838}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> svvoooyyyy
 --- !u!1 &1111182955
 GameObject:
   m_ObjectHideFlags: 3
@@ -6733,6 +6826,7 @@ RectTransform:
   m_AnchoredPosition: {x: -110, y: -25}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 --- !u!1 &1184596459
 GameObject:
   m_ObjectHideFlags: 0
@@ -6817,6 +6911,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &1190244785
 GameObject:
   m_ObjectHideFlags: 0
@@ -6979,6 +7075,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &1208570068
 GameObject:
   m_ObjectHideFlags: 0
@@ -7063,6 +7160,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &1216305907
 GameObject:
   m_ObjectHideFlags: 0
@@ -7871,10 +7970,13 @@ Transform:
   - {fileID: 1034820877}
   - {fileID: 156125191}
   - {fileID: 1695377338}
+<<<<<<< HEAD
   - {fileID: 1598958818}
   - {fileID: 981333667}
   - {fileID: 1545221105}
   - {fileID: 693648106}
+=======
+>>>>>>> svvoooyyyy
   m_Father: {fileID: 2063009185}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &1326700895
@@ -8345,6 +8447,7 @@ Transform:
   - {fileID: 236530259}
   m_Father: {fileID: 1326700894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1392165644
 GameObject:
   m_ObjectHideFlags: 0
@@ -8429,6 +8532,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &1448716656
 GameObject:
   m_ObjectHideFlags: 3
@@ -9160,6 +9265,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 11}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!1 &1545221104
 GameObject:
   m_ObjectHideFlags: 0
@@ -9326,6 +9432,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &1566620465
 GameObject:
   m_ObjectHideFlags: 0
@@ -9564,6 +9672,7 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1111182956}
+<<<<<<< HEAD
 --- !u!1 &1579749811
 GameObject:
   m_ObjectHideFlags: 0
@@ -9608,6 +9717,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &1598284240
 GameObject:
   m_ObjectHideFlags: 0
@@ -9686,6 +9797,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 11}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!1 &1598958817
 GameObject:
   m_ObjectHideFlags: 0
@@ -9768,6 +9880,8 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &1625709190
 GameObject:
   m_ObjectHideFlags: 0
@@ -11124,6 +11238,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &1816061682
 GameObject:
   m_ObjectHideFlags: 0
@@ -11293,6 +11408,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &1853895948
 GameObject:
   m_ObjectHideFlags: 0
@@ -11894,6 +12011,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &1944175216
 GameObject:
   m_ObjectHideFlags: 0
@@ -11991,6 +12109,8 @@ MonoBehaviour:
   _resourceType: 1
   _resourceAmount: 1
   _obtainItemType: 1
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &1951426868
 GameObject:
   m_ObjectHideFlags: 0
@@ -12086,7 +12206,11 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 1
+=======
+  m_IsActive: 0
+>>>>>>> svvoooyyyy
 --- !u!4 &1955971540
 Transform:
   m_ObjectHideFlags: 0
@@ -12104,8 +12228,11 @@ Transform:
   - {fileID: 9716300}
   - {fileID: 1992440023}
   - {fileID: 331235469}
+<<<<<<< HEAD
   - {fileID: 2134979719}
   - {fileID: 2005376420}
+=======
+>>>>>>> svvoooyyyy
   m_Father: {fileID: 2063009185}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &1955971541
@@ -12182,13 +12309,21 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959680942}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> svvoooyyyy
   m_LocalPosition: {x: 0.75, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2057411069}
+<<<<<<< HEAD
   m_Father: {fileID: 154615642}
+=======
+  m_Father: {fileID: 669927838}
+>>>>>>> svvoooyyyy
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1974372035
 GameObject:
@@ -12424,6 +12559,7 @@ Transform:
   - {fileID: 1806356865}
   m_Father: {fileID: 1955971540}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &2005376419
 GameObject:
   m_ObjectHideFlags: 0
@@ -12457,6 +12593,8 @@ Transform:
   - {fileID: 44900933}
   m_Father: {fileID: 1955971540}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &2026320305
 GameObject:
   m_ObjectHideFlags: 0
@@ -12492,6 +12630,7 @@ Transform:
   - {fileID: 157672530}
   m_Father: {fileID: 1326700894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &2031447953
 GameObject:
   m_ObjectHideFlags: 0
@@ -12576,6 +12715,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &2046591282
 GameObject:
   m_ObjectHideFlags: 0
@@ -12774,6 +12915,7 @@ Transform:
   - {fileID: 1345158998}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &2083123187
 GameObject:
   m_ObjectHideFlags: 0
@@ -12858,6 +13000,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &2098269759
 GameObject:
   m_ObjectHideFlags: 3
@@ -13196,6 +13340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!1 &2134979718
 GameObject:
   m_ObjectHideFlags: 0
@@ -13312,6 +13457,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> svvoooyyyy
 --- !u!1 &2136801546
 GameObject:
   m_ObjectHideFlags: 0
@@ -13352,7 +13499,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 585129323}
+<<<<<<< HEAD
   - {fileID: 1579749813}
+=======
+>>>>>>> svvoooyyyy
   - {fileID: 519420032}
   - {fileID: 669927838}
   - {fileID: 2063009185}
