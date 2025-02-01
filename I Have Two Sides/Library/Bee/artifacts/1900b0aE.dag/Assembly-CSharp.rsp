@@ -384,6 +384,8 @@
 "Assets/Scripts/ItemType.cs"
 "Assets/Scripts/Menu.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/PlayerAttack.cs"
+"Assets/Scripts/Resource.cs"
 "Assets/Scripts/ResourcesManager.cs"
 "Assets/Scripts/ResourcesUI.cs"
 "Assets/Scripts/ResourceType.cs"
