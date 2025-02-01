@@ -22,6 +22,6 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context)
     {
-        _moveDirection = context.ReadValue<Vector2>().normalized;
+        _moveDirection = context.ReadValue<Vector2>();
     }
 }
