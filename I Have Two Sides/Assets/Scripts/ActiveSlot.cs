@@ -15,13 +15,13 @@ public class ActiveSlot : MonoBehaviour
         _itemsPool[(int)_activeItem].SetActive(true);
     }
 
-    public void DropItem(ItemType itemType)
+    public void DropItem()
     {
         if (_activeItem == ItemType.None)
             return;
         
         _itemsPool[(int)_activeItem].SetActive(false);
-        _activeItem = itemType;
+        _activeItem = ItemType.None;
         _itemsPool[(int)_activeItem].SetActive(true);
     }
 }
