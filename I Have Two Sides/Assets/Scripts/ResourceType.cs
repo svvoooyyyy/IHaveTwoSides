@@ -2,5 +2,6 @@ public enum ResourceType
 {
     Wood,
     Grass,
-    Mushroom
+    Mushroom,
+    Meat
 }

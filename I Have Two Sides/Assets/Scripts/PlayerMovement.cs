@@ -4,8 +4,6 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float _moveSpeed;
-    [SerializeField] private GameObject _body;
-    [SerializeField] private GameObject _instruments;
 
     private Rigidbody2D _rb;
     private Vector2 _moveDirection;
@@ -31,14 +29,8 @@ public class PlayerMovement : MonoBehaviour
     {
         _moveDirection = context.ReadValue<Vector2>();
         if (_moveDirection.x > 0)
-        {
-            _body.transform.localScale = new Vector3(-Mathf.Abs(_body.transform.localScale.x), _body.transform.localScale.y);
-            _instruments.transform.localScale = new Vector3(-Mathf.Abs(_instruments.transform.localScale.x), _instruments.transform.localScale.y);
-        }
-        else
-        {
-            _body.transform.localScale = new Vector3(Mathf.Abs(_body.transform.localScale.x), _body.transform.localScale.y);
-            _instruments.transform.localScale = new Vector3(Mathf.Abs(_instruments.transform.localScale.x), _instruments.transform.localScale.y);
-        }
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y);
+        else if (_moveDirection.x < 0)
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y);
     }
 }
