@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     public void Move(InputAction.CallbackContext context)
     {
         _moveDirection = context.ReadValue<Vector2>();
+        
         if (_moveDirection.x > 0)
             transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y);
         else if (_moveDirection.x < 0)
