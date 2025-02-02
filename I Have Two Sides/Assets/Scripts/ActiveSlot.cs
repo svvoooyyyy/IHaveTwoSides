@@ -1,5 +1,5 @@
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections.Generic;
 using UnityEngine.InputSystem;
 
 public class ActiveSlot : MonoBehaviour
@@ -7,6 +7,7 @@ public class ActiveSlot : MonoBehaviour
     [SerializeField] private List<GameObject> _itemsPool;
     [SerializeField] private float _pickUpRadius;
     [SerializeField] private LayerMask _itemMask;
+
     private ItemType _activeItem = ItemType.None;
     private GameObject _pickedItem;
 

@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
+    [SerializeField] private Transform _newPlayerPosition;
     [SerializeField] private GameObject _currentRoom;
     [SerializeField] private GameObject _nextRoom;
-    [SerializeField] private Transform _newPlayerPosition;
 
     private void OnTriggerEnter2D(Collider2D collider)
     {

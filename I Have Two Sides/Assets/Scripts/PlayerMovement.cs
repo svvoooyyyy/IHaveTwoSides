@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         _rb.velocity = new Vector2(_moveDirection.x * _moveSpeed, _moveDirection.y * _moveSpeed);
+        
         if (_rb.velocity != Vector2.zero)
             _animator.Play("Run");
         else
