@@ -21,50 +21,38 @@ public class HandSlot : MonoBehaviour
         return null;
     }
 
-    private void PickUp(ItemType itemType)
+    private void PickUp(GameObject item)
     {
-        if (PickedItemType != ItemType.None)
-            return;
+        ItemType itemType = item.GetComponent<Item>().GetItemType();
 
+        item.SetActive(false);
         _itemsPool[(int)itemType].SetActive(true);
+        _pickedItemObject = item;
         PickedItemType = itemType;
     }
 
     private void Drop()
     {
-        if (PickedItemType == ItemType.None)
-            return;
-        
         _itemsPool[(int)PickedItemType].SetActive(false);
         PickedItemType = ItemType.None;
         _itemsPool[(int)PickedItemType].SetActive(true);
+
+        _pickedItemObject.transform.position = transform.position;
+        _pickedItemObject.SetActive(true);
+        _pickedItemObject = null;
     }
 
     public void PickUp(InputAction.CallbackContext context)
     {
         GameObject item = TryPickUp();
         
-        if (context.performed && item != null) 
-        {
-            _pickedItemObject = item;
-            PickedItemType = item.GetComponent<Item>().GetItemType();
-            PickUp(PickedItemType);
-            item.SetActive(false);
-        }
+        if (context.performed && item != null && PickedItemType == ItemType.None) 
+            PickUp(item);
     }
 
     public void Drop(InputAction.CallbackContext context)
     {
-        if (context.performed) {
+        if (context.performed && PickedItemType != ItemType.None)
             Drop();
-
-            if (_pickedItemObject != null)
-            {
-                _pickedItemObject.transform.position = transform.position;
-                _pickedItemObject.SetActive(true);
-                _pickedItemObject = null;
-                PickedItemType = ItemType.None;
-            }
-        }
     }
 }
