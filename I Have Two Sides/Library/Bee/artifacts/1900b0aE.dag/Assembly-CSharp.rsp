@@ -394,6 +394,8 @@
 "Assets/Scripts/Resources/Resource.cs"
 "Assets/Scripts/Resources/ResourcesManager.cs"
 "Assets/Scripts/Resources/ResourceType.cs"
+"Assets/Scripts/UI/DialogueText.cs"
+"Assets/Scripts/UI/ImageGallery.cs"
 "Assets/Scripts/UI/Menu.cs"
 "Assets/Scripts/UI/ResourcesUI.cs"
 "Assets/Scripts/UI/SettingsMenu.cs"
