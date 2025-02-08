@@ -9,6 +9,36 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 8532a63a31237c1469caa5e06bc3add7
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Intro.unity
+    guid: 413f6788ab234c9479e3d3e7378d0b4e
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 503db43492cc5c74395e12973768ca0f
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 4bb216fb68880384fbafa440c41f1dbc
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: fc0f28b089ad6054aa95b93169e716e5
+  - enabled: 1
+    path: Assets/Scenes/TransformationAnimation.unity
+    guid: 82d0952e52db464489970bdc3499782e
+  - enabled: 1
+    path: Assets/Scenes/SantaBarbara/Bad1.unity
+    guid: da9f8622467a194438cbc500d176f4bc
+  - enabled: 1
+    path: Assets/Scenes/SantaBarbara/Bad2.unity
+    guid: 734076c200d7f3046a0d387eb41e4012
+  - enabled: 1
+    path: Assets/Scenes/SantaBarbara/Bad3.unity
+    guid: 663d286cb121db147a899a97b4485a10
+  - enabled: 1
+    path: Assets/Scenes/SantaBarbara/Good2.unity
+    guid: 161cdce3cba79d44f9e7fc66c9a2927d
+  - enabled: 1
+    path: Assets/Scenes/SantaBarbara/Good1.unity
+    guid: 91123ecf0746a094ea4cf98ecdfd53ef
+  - enabled: 1
+    path: Assets/Scenes/SantaBarbara/Good3.unity
+    guid: 16b0210dfd2afa248ba04915e19281a3
   m_configObjects: {}

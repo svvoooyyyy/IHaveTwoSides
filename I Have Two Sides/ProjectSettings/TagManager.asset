@@ -3,8 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Werewolf
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -14,7 +13,7 @@ TagManager:
   - UI
   - Item
   - Resource
-  - 
+  - Task
   - 
   - 
   - 
@@ -44,6 +43,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 2764207905
+    locked: 0
+  - name: Outline
+    uniqueID: 2917807769
     locked: 0
   - name: Player
     uniqueID: 2709567461
